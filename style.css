@@ -7,15 +7,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 header{
-    background-color: aliceblue;
+
+    background-color: rgb(64, 55, 99);
     width: 100%;
     position: fixed;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 8px 150px;
 }
 .logo{
     text-decoration: none;
@@ -32,25 +34,25 @@ section{
     min-height: 100vh;
     width: 100%;
     align-items: center;
-    background: url(img/download.jpg) no-repeat;
+    background: url(images/images.jpeg-4.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     
 }
 .main1{
-    background: url(img/67491733-0ea5-425d-9837-95298ed1712b.jpg) no-repeat;
+    background: url(images/photo_2022-05-17_03-39-49.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .main h2 span{
     display: inline-block;
     margin-top: 10px;
-    color: rgb(218, 84, 0);
+    color: rgb(180, 72, 4);
     font-size: 3em;
     font-weight: 900;
 }
 .main h3{
-    color: #fff;
+    color: rgb(15, 0, 0);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -75,14 +77,14 @@ section{
     transform: scale(1.1);
 }
 .social_icons a {
-    color: #fff;
+    color: rgb(20, 1, 1);
     font-size: 1.7em;
     padding-right: 30px;
 }
 .p{
     display: flex;
     justify-content: center;
-    color: rgb(218, 84, 0);
+    color: rgb(0, 0, 0);
     font-size: 1.8em;
     font-weight: 700;
     margin: 30px;
@@ -94,7 +96,7 @@ ul{
 ul li{
     display: flex;
     margin: 20px;
-    color: rgb(218, 84, 0);
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
     font-weight: 700;
     justify-content: center;
@@ -106,21 +108,4 @@ ul li{
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-}
-footer{
-    width: 100%;
-}
-.m{
-    text-decoration: none;
-    color: rgb(164, 135, 19);
-    font-weight: 700;
-    font-size: 1.8em;
-}
-.m1{
-    display: flex;
-    text-decoration: none;
-    color: rgb(164, 135, 19);
-    font-weight: 700;
-    font-size: 1.8em;
-    justify-content: right;
 }
